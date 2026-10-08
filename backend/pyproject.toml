@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ads-right-api"
+version = "0.1.0"
+description = "FastAPI backend for the Adverifact creative review demo"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn[standard]>=0.30,<1",
+    "httpx>=0.27,<1",
+    "pillow-rs==0.1.3",
+    "pypdfium2>=4.30,<6",
+    "python-multipart>=0.0.20",
+    "python-dotenv>=1,<2",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]

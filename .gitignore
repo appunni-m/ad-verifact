@@ -1,0 +1,15 @@
+.kata.local.toml
+.env
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+web/dist/
+backend/.venv/
+backend/var/
+var/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.tsbuildinfo
+.*.swp

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="628" viewBox="0 0 1200 628" role="img" aria-label="Display banner sample: Made for the everyday">
+<rect width="1200" height="628" fill="#153b32"/>
+<circle cx="1032" cy="75" r="138" fill="#d6a76e" opacity=".23"/>
+<text x="96" y="75" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="21" letter-spacing="2">GROVE GOODS</text>
+<text x="96" y="157" fill="#c5c9c5" font-family="Arial,sans-serif" font-size="47" font-weight="700">Made for the everyday</text>
+<text x="96" y="239" fill="#c5c9c5" opacity=".82" font-family="Arial,sans-serif" font-size="21">Reusable stainless-steel bottle · Grove Bottle</text>
+<rect x="672" y="138" width="384" height="214" rx="44" fill="#d6a76e"/>
+<rect x="791" y="117" width="146" height="26" rx="9" fill="#f2d5ae"/>
+<rect x="718" y="217" width="292" height="66" rx="6" fill="#f5f1e6"/>
+<text x="864" y="256" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="15" font-weight="700">GROVE</text>
+<text x="864" y="275" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="9">750 ml</text>
+<rect x="96" y="433" width="564" height="82" rx="10" fill="#f5f1e6"/>
+<text x="378" y="484" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="21" font-weight="700">20% OFF · SEE DETAILS</text>
+<text x="96" y="540" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="22" font-weight="700">SHOP NOW →</text>
+<text x="96" y="590" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="12">Terms apply · grove.example</text>
+</svg>

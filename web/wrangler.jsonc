@@ -1,0 +1,36 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "adverifact",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-07",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"],
+    "not_found_handling": "single-page-application"
+  },
+  "containers": [
+    {
+      "class_name": "AdsRightContainer",
+      "image": "../Dockerfile",
+      "max_instances": 1
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "ADS_RIGHT_API",
+        "class_name": "AdsRightContainer"
+      }
+    ]
+  },
+  "exports": {
+    "AdsRightContainer": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  },
+  "observability": {
+    "enabled": true
+  }
+}

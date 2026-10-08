@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="840" viewBox="0 0 420 840" role="img" aria-label="Story placement sample: A little better, every day">
+<rect width="420" height="840" fill="#153b32"/>
+<circle cx="361" cy="101" r="92" fill="#d6a76e" opacity=".23"/>
+<text x="34" y="101" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">GROVE GOODS</text>
+<text x="34" y="210" fill="#f5f1e6" font-family="Arial,sans-serif" font-size="32" font-weight="700">A little better, every day</text>
+<text x="34" y="319" fill="#f5f1e6" opacity=".82" font-family="Arial,sans-serif" font-size="15">Designed for daily use · Grove Bottle</text>
+<rect x="235" y="185" width="134" height="286" rx="29" fill="#d6a76e"/>
+<rect x="277" y="156" width="51" height="34" rx="6" fill="#f2d5ae"/>
+<rect x="251" y="291" width="102" height="89" rx="6" fill="#f5f1e6"/>
+<text x="302" y="342" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="12" font-weight="700">GROVE</text>
+<text x="302" y="368" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="9">750 ml</text>
+<rect x="34" y="580" width="197" height="55" rx="10" fill="#f5f1e6"/>
+<text x="133" y="647" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="15" font-weight="700">70% OFF · TODAY ONLY</text>
+<text x="34" y="722" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="15" font-weight="700">SHOP NOW →</text>
+<text x="34" y="790" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="10">Terms apply · grove.example</text>
+</svg>

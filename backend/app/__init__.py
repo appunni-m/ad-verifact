@@ -1,0 +1,1 @@
+"""Adverifact API application."""

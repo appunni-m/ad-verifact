@@ -1,0 +1,2924 @@
+[
+  {
+    "id": "product_catalog-clean",
+    "creative": "creatives/product_catalog-clean.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "No known issue in the labeled evidence.",
+    "expected_severity": "none",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "product_catalog-minor",
+    "creative": "creatives/product_catalog-minor.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The CTA sits close to the edge but remains readable.",
+    "expected_severity": "low",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 90,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "low",
+          "title": "Low creative issue 1",
+          "evidence": "The CTA sits close to the edge but remains readable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "product_catalog-two_medium",
+    "creative": "creatives/product_catalog-two_medium.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline hierarchy and CTA prominence each need refinement.",
+    "expected_severity": "medium",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 84,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.04
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "product_catalog-many_medium",
+    "creative": "creatives/product_catalog-many_medium.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "Three separate medium-severity layout, contrast, and CTA findings.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 85,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 3",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        }
+      ]
+    }
+  },
+  {
+    "id": "product_catalog-syntax_boundary",
+    "creative": "creatives/product_catalog-syntax_boundary.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline contains a visible spelling error.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.56
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "medium",
+          "title": "Spelling issue in visible copy",
+          "evidence": "The headline contains a visible spelling error."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "product_catalog-claim_review",
+    "creative": "creatives/product_catalog-claim_review.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "An objective outcome claim has no substantiation in the supplied evidence.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.8
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Objective claim needs substantiation",
+          "evidence": "An objective outcome claim has no substantiation in the supplied evidence."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "product_catalog-offer_mismatch",
+    "creative": "creatives/product_catalog-offer_mismatch.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The ad says 70% off while the supplied approved offer is 20% off.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 93,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "mismatch"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Offer does not match the approved reference",
+          "evidence": "The ad says 70% off while the supplied approved offer is 20% off."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "product_catalog-score_boundary",
+    "creative": "creatives/product_catalog-score_boundary.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The composite creative-quality score is below the proposed pass threshold.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 83,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "product_catalog-insufficient_evidence",
+    "creative": "creatives/product_catalog-insufficient_evidence.svg",
+    "ad_type": "product_catalog",
+    "placement": "Square product card",
+    "format_label": "Product catalog",
+    "brief": "No product or variant reference was supplied.",
+    "approved_facts": {},
+    "known_issue": "The image cannot be checked against an approved product or variant reference.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "social_feed-clean",
+    "creative": "creatives/social_feed-clean.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "No known issue in the labeled evidence.",
+    "expected_severity": "none",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "social_feed-minor",
+    "creative": "creatives/social_feed-minor.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The CTA sits close to the edge but remains readable.",
+    "expected_severity": "low",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 90,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "low",
+          "title": "Low creative issue 1",
+          "evidence": "The CTA sits close to the edge but remains readable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "social_feed-two_medium",
+    "creative": "creatives/social_feed-two_medium.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline hierarchy and CTA prominence each need refinement.",
+    "expected_severity": "medium",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 84,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.04
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "social_feed-many_medium",
+    "creative": "creatives/social_feed-many_medium.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "Three separate medium-severity layout, contrast, and CTA findings.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 85,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 3",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        }
+      ]
+    }
+  },
+  {
+    "id": "social_feed-syntax_boundary",
+    "creative": "creatives/social_feed-syntax_boundary.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline contains a visible spelling error.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.56
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "medium",
+          "title": "Spelling issue in visible copy",
+          "evidence": "The headline contains a visible spelling error."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "social_feed-claim_review",
+    "creative": "creatives/social_feed-claim_review.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "An objective outcome claim has no substantiation in the supplied evidence.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.8
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Objective claim needs substantiation",
+          "evidence": "An objective outcome claim has no substantiation in the supplied evidence."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "social_feed-offer_mismatch",
+    "creative": "creatives/social_feed-offer_mismatch.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The ad says 70% off while the supplied approved offer is 20% off.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 93,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "mismatch"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Offer does not match the approved reference",
+          "evidence": "The ad says 70% off while the supplied approved offer is 20% off."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "social_feed-score_boundary",
+    "creative": "creatives/social_feed-score_boundary.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The composite creative-quality score is below the proposed pass threshold.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 83,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "social_feed-insufficient_evidence",
+    "creative": "creatives/social_feed-insufficient_evidence.svg",
+    "ad_type": "social_feed",
+    "placement": "Feed post",
+    "format_label": "Social feed",
+    "brief": "No product or variant reference was supplied.",
+    "approved_facts": {},
+    "known_issue": "The image cannot be checked against an approved product or variant reference.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "vertical_story-clean",
+    "creative": "creatives/vertical_story-clean.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "No known issue in the labeled evidence.",
+    "expected_severity": "none",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "vertical_story-minor",
+    "creative": "creatives/vertical_story-minor.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The CTA sits close to the edge but remains readable.",
+    "expected_severity": "low",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 90,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "low",
+          "title": "Low creative issue 1",
+          "evidence": "The CTA sits close to the edge but remains readable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "vertical_story-two_medium",
+    "creative": "creatives/vertical_story-two_medium.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline hierarchy and CTA prominence each need refinement.",
+    "expected_severity": "medium",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 84,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.04
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "vertical_story-many_medium",
+    "creative": "creatives/vertical_story-many_medium.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "Three separate medium-severity layout, contrast, and CTA findings.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 85,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 3",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        }
+      ]
+    }
+  },
+  {
+    "id": "vertical_story-syntax_boundary",
+    "creative": "creatives/vertical_story-syntax_boundary.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline contains a visible spelling error.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.56
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "medium",
+          "title": "Spelling issue in visible copy",
+          "evidence": "The headline contains a visible spelling error."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "vertical_story-claim_review",
+    "creative": "creatives/vertical_story-claim_review.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "An objective outcome claim has no substantiation in the supplied evidence.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.8
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Objective claim needs substantiation",
+          "evidence": "An objective outcome claim has no substantiation in the supplied evidence."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "vertical_story-offer_mismatch",
+    "creative": "creatives/vertical_story-offer_mismatch.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The ad says 70% off while the supplied approved offer is 20% off.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 93,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "mismatch"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Offer does not match the approved reference",
+          "evidence": "The ad says 70% off while the supplied approved offer is 20% off."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "vertical_story-score_boundary",
+    "creative": "creatives/vertical_story-score_boundary.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The composite creative-quality score is below the proposed pass threshold.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 83,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "vertical_story-insufficient_evidence",
+    "creative": "creatives/vertical_story-insufficient_evidence.svg",
+    "ad_type": "vertical_story",
+    "placement": "Story placement",
+    "format_label": "Vertical story",
+    "brief": "No product or variant reference was supplied.",
+    "approved_facts": {},
+    "known_issue": "The image cannot be checked against an approved product or variant reference.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "display_banner-clean",
+    "creative": "creatives/display_banner-clean.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "No known issue in the labeled evidence.",
+    "expected_severity": "none",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "display_banner-minor",
+    "creative": "creatives/display_banner-minor.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The CTA sits close to the edge but remains readable.",
+    "expected_severity": "low",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 90,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "low",
+          "title": "Low creative issue 1",
+          "evidence": "The CTA sits close to the edge but remains readable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "display_banner-two_medium",
+    "creative": "creatives/display_banner-two_medium.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline hierarchy and CTA prominence each need refinement.",
+    "expected_severity": "medium",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 84,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.04
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "display_banner-many_medium",
+    "creative": "creatives/display_banner-many_medium.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "Three separate medium-severity layout, contrast, and CTA findings.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 85,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 3",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        }
+      ]
+    }
+  },
+  {
+    "id": "display_banner-syntax_boundary",
+    "creative": "creatives/display_banner-syntax_boundary.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline contains a visible spelling error.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.56
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "medium",
+          "title": "Spelling issue in visible copy",
+          "evidence": "The headline contains a visible spelling error."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "display_banner-claim_review",
+    "creative": "creatives/display_banner-claim_review.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "An objective outcome claim has no substantiation in the supplied evidence.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.8
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Objective claim needs substantiation",
+          "evidence": "An objective outcome claim has no substantiation in the supplied evidence."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "display_banner-offer_mismatch",
+    "creative": "creatives/display_banner-offer_mismatch.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The ad says 70% off while the supplied approved offer is 20% off.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 93,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "mismatch"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Offer does not match the approved reference",
+          "evidence": "The ad says 70% off while the supplied approved offer is 20% off."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "display_banner-score_boundary",
+    "creative": "creatives/display_banner-score_boundary.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The composite creative-quality score is below the proposed pass threshold.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 83,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "display_banner-insufficient_evidence",
+    "creative": "creatives/display_banner-insufficient_evidence.svg",
+    "ad_type": "display_banner",
+    "placement": "Display banner",
+    "format_label": "Display banner",
+    "brief": "No product or variant reference was supplied.",
+    "approved_facts": {},
+    "known_issue": "The image cannot be checked against an approved product or variant reference.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "promotion-clean",
+    "creative": "creatives/promotion-clean.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "No known issue in the labeled evidence.",
+    "expected_severity": "none",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "promotion-minor",
+    "creative": "creatives/promotion-minor.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The CTA sits close to the edge but remains readable.",
+    "expected_severity": "low",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 90,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "low",
+          "title": "Low creative issue 1",
+          "evidence": "The CTA sits close to the edge but remains readable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "promotion-two_medium",
+    "creative": "creatives/promotion-two_medium.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline hierarchy and CTA prominence each need refinement.",
+    "expected_severity": "medium",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 84,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.04
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "promotion-many_medium",
+    "creative": "creatives/promotion-many_medium.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "Three separate medium-severity layout, contrast, and CTA findings.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 85,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 3",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        }
+      ]
+    }
+  },
+  {
+    "id": "promotion-syntax_boundary",
+    "creative": "creatives/promotion-syntax_boundary.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline contains a visible spelling error.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.56
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "medium",
+          "title": "Spelling issue in visible copy",
+          "evidence": "The headline contains a visible spelling error."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "promotion-claim_review",
+    "creative": "creatives/promotion-claim_review.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "An objective outcome claim has no substantiation in the supplied evidence.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.8
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Objective claim needs substantiation",
+          "evidence": "An objective outcome claim has no substantiation in the supplied evidence."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "promotion-offer_mismatch",
+    "creative": "creatives/promotion-offer_mismatch.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The ad says 70% off while the supplied approved offer is 20% off.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 93,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "mismatch"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Offer does not match the approved reference",
+          "evidence": "The ad says 70% off while the supplied approved offer is 20% off."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "promotion-score_boundary",
+    "creative": "creatives/promotion-score_boundary.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The composite creative-quality score is below the proposed pass threshold.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 83,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "promotion-insufficient_evidence",
+    "creative": "creatives/promotion-insufficient_evidence.svg",
+    "ad_type": "promotion",
+    "placement": "Offer creative",
+    "format_label": "Promotion",
+    "brief": "No product or variant reference was supplied.",
+    "approved_facts": {},
+    "known_issue": "The image cannot be checked against an approved product or variant reference.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "testimonial-clean",
+    "creative": "creatives/testimonial-clean.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "No known issue in the labeled evidence.",
+    "expected_severity": "none",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "testimonial-minor",
+    "creative": "creatives/testimonial-minor.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The CTA sits close to the edge but remains readable.",
+    "expected_severity": "low",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 90,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "low",
+          "title": "Low creative issue 1",
+          "evidence": "The CTA sits close to the edge but remains readable."
+        }
+      ]
+    }
+  },
+  {
+    "id": "testimonial-two_medium",
+    "creative": "creatives/testimonial-two_medium.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline hierarchy and CTA prominence each need refinement.",
+    "expected_severity": "medium",
+    "expected_needs_review": false,
+    "fixture_prediction": {
+      "quality_score": 84,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.04
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "The headline hierarchy and CTA prominence each need refinement."
+        }
+      ]
+    }
+  },
+  {
+    "id": "testimonial-many_medium",
+    "creative": "creatives/testimonial-many_medium.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "Three separate medium-severity layout, contrast, and CTA findings.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 85,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.03
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": [
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 1",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 2",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        },
+        {
+          "severity": "medium",
+          "title": "Medium creative issue 3",
+          "evidence": "Three separate medium-severity layout, contrast, and CTA findings."
+        }
+      ]
+    }
+  },
+  {
+    "id": "testimonial-syntax_boundary",
+    "creative": "creatives/testimonial-syntax_boundary.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The headline contains a visible spelling error.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.56
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "medium",
+          "title": "Spelling issue in visible copy",
+          "evidence": "The headline contains a visible spelling error."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "testimonial-claim_review",
+    "creative": "creatives/testimonial-claim_review.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "An objective outcome claim has no substantiation in the supplied evidence.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 91,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.8
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Objective claim needs substantiation",
+          "evidence": "An objective outcome claim has no substantiation in the supplied evidence."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "testimonial-offer_mismatch",
+    "creative": "creatives/testimonial-offer_mismatch.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The ad says 70% off while the supplied approved offer is 20% off.",
+    "expected_severity": "high",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 93,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "mismatch"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [
+        {
+          "severity": "high",
+          "title": "Offer does not match the approved reference",
+          "evidence": "The ad says 70% off while the supplied approved offer is 20% off."
+        }
+      ],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "testimonial-score_boundary",
+    "creative": "creatives/testimonial-score_boundary.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "Grove Bottle, 750 ml. Approved offer: 20% off. Use a clear, evidence-based headline and a readable SHOP NOW CTA.",
+    "approved_facts": {
+      "product": "Grove Bottle 750 ml",
+      "offer": "20% off; terms apply",
+      "cta": "SHOP NOW",
+      "url": "grove.example"
+    },
+    "known_issue": "The composite creative-quality score is below the proposed pass threshold.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 83,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "consistent"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  },
+  {
+    "id": "testimonial-insufficient_evidence",
+    "creative": "creatives/testimonial-insufficient_evidence.svg",
+    "ad_type": "testimonial",
+    "placement": "Customer quote",
+    "format_label": "Testimonial",
+    "brief": "No product or variant reference was supplied.",
+    "approved_facts": {},
+    "known_issue": "The image cannot be checked against an approved product or variant reference.",
+    "expected_severity": "medium",
+    "expected_needs_review": true,
+    "fixture_prediction": {
+      "quality_score": 95,
+      "factual_answers": [
+        {
+          "id": "product_variant",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "offer_terms",
+          "answer_type": "choice",
+          "answer": "cannot_assess"
+        },
+        {
+          "id": "material_copy_legibility",
+          "answer_type": "predicate",
+          "answer": 0.96
+        },
+        {
+          "id": "copy_syntax_issue",
+          "answer_type": "predicate",
+          "answer": 0.02
+        },
+        {
+          "id": "potentially_sensitive_claim",
+          "answer_type": "predicate",
+          "answer": 0.1
+        }
+      ],
+      "factual_findings": [],
+      "quality_findings": []
+    }
+  }
+]

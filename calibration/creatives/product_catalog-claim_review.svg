@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Square product card sample: Cures every ailment">
+<rect width="640" height="640" fill="#153b32"/>
+<circle cx="550" cy="77" r="141" fill="#d6a76e" opacity=".23"/>
+<text x="51" y="77" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="21" letter-spacing="2">GROVE GOODS</text>
+<text x="51" y="160" fill="#f5f1e6" font-family="Arial,sans-serif" font-size="48" font-weight="700">Cures every ailment</text>
+<text x="51" y="243" fill="#f5f1e6" opacity=".82" font-family="Arial,sans-serif" font-size="21">Reusable stainless-steel bottle · Grove Bottle</text>
+<rect x="358" y="141" width="205" height="218" rx="45" fill="#d6a76e"/>
+<rect x="422" y="119" width="78" height="26" rx="10" fill="#f2d5ae"/>
+<rect x="383" y="222" width="156" height="68" rx="6" fill="#f5f1e6"/>
+<text x="460" y="261" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="15" font-weight="700">GROVE</text>
+<text x="460" y="281" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="9">750 ml</text>
+<rect x="51" y="442" width="301" height="83" rx="10" fill="#f5f1e6"/>
+<text x="201" y="493" text-anchor="middle" fill="#153b32" font-family="Arial,sans-serif" font-size="21" font-weight="700">20% OFF · SEE DETAILS</text>
+<text x="51" y="550" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="22" font-weight="700">SHOP NOW →</text>
+<text x="51" y="602" fill="#a8cfb5" font-family="Arial,sans-serif" font-size="12">Terms apply · grove.example</text>
+</svg>

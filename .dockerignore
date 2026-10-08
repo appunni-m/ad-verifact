@@ -1,0 +1,9 @@
+.git
+.kata.local.toml
+**/.env
+**/.venv
+**/__pycache__
+backend/var
+web/node_modules
+web/dist
+node_modules
