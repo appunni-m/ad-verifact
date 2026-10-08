@@ -370,7 +370,7 @@ def _quality_questions() -> list[dict[str, Any]]:
 async def _openrouter_json(operation: str, body: dict[str, Any], state: RunState) -> dict[str, Any]:
     api_key = openrouter.api_key()
     if not api_key:
-        raise WorkflowError("Set OPENROUTER_API_KEY in backend/.env to run the workflow.")
+        raise WorkflowError("Configure OPENROUTER_API_KEY as a server-side secret to run the workflow.")
     reserve_usd = reserve_budget(
         state.view.id,
         state.view.budget_limit_usd,
@@ -923,7 +923,7 @@ async def run_workflow(state: RunState, stage: str) -> None:
 
         elif stage == "factual_qa":
             if not openrouter.configured():
-                raise WorkflowError("Set OPENROUTER_API_KEY in backend/.env to run the workflow.")
+                raise WorkflowError("Configure OPENROUTER_API_KEY as a server-side secret to run the workflow.")
             pages = _prepared_pages_from_state(state)
             context = _common_context(state, pages)
             _update_node(state, "factual_qa", NodeStatus.RUNNING, "Evaluating product, offer, claims, and questionnaire")
@@ -940,7 +940,7 @@ async def run_workflow(state: RunState, stage: str) -> None:
 
         elif stage == "quality":
             if not openrouter.configured():
-                raise WorkflowError("Set OPENROUTER_API_KEY in backend/.env to run the workflow.")
+                raise WorkflowError("Configure OPENROUTER_API_KEY as a server-side secret to run the workflow.")
             pages = _prepared_pages_from_state(state)
             context = _common_context(state, pages)
             _update_node(state, "quality", NodeStatus.RUNNING, "Scoring the editable creative-quality rubric")
@@ -1069,7 +1069,7 @@ async def apply_review_decision(state: RunState, decision: str, notes: str) -> N
 async def _edit_image(prompt: str, source_path: Path, state: RunState) -> tuple[bytes, dict[str, Any], float]:
     api_key = openrouter.api_key()
     if not api_key:
-        raise WorkflowError("Set OPENROUTER_API_KEY in backend/.env to generate image drafts.")
+        raise WorkflowError("Configure OPENROUTER_API_KEY as a server-side secret to generate image drafts.")
     reserve_usd = reserve_budget(
         state.view.id,
         state.view.budget_limit_usd,

@@ -54,8 +54,15 @@ The per-run spend estimate is a browser-carried guardrail because this demo does
 
 FastAPI runs in a Linux Cloudflare Container because Pillow-RS and PDFium require native libraries. The Worker serves Vite's static build, forwards `/api/*` requests to the Container, and injects the OpenRouter secret only for the Decisions, Responses, and Images endpoints. This app deploys as a Cloudflare Worker (`*.workers.dev`), since it needs a Worker and Container rather than Pages-only hosting.
 
-To deploy from GitHub, connect `appunni-m/ad-verifact` to Cloudflare Workers Builds. Set the repository root to `/`, production branch to `main`, and deploy command to `cd web && npm ci && npm run cf:deploy`. The repository root must remain the build context so the Container Dockerfile can copy `backend/`. Workers Builds can build that Dockerfile remotely; local Docker is not required. Add `OPENROUTER_API_KEY` as a Worker secret in Cloudflare before using the AI workflow.
+To deploy on every push to `main`, the repository includes `.github/workflows/deploy-cloudflare.yml`. Add these GitHub Actions repository secrets:
 
-For a local one-shot deploy instead, run `npx wrangler login` from `web/`, add the key with `npx wrangler secret put OPENROUTER_API_KEY --config wrangler.jsonc`, then run `npm run cf:deploy`. This command builds and deploys the Worker and Container, then exits.
+- `CLOUDFLARE_API_TOKEN`: a Cloudflare API token allowed to deploy the `soft-star-0dd4` Worker and its Container.
+- `CLOUDFLARE_ACCOUNT_ID`: the Cloudflare account ID that owns the Worker.
+
+The workflow installs the web dependencies, runs the production build, then deploys the Worker and Container with Wrangler. The Wrangler `name` is `soft-star-0dd4` and must match the target Worker. GitHub Actions' hosted Linux runner provides Docker for the Container image build.
+
+Set `OPENROUTER_API_KEY` separately as a **Worker runtime secret** in Cloudflare under the Worker’s Settings → Variables & Secrets. The Worker injects it into FastAPI for OpenRouter requests. It is not a GitHub build secret and must not be committed to the repository.
+
+For a local one-shot deploy instead, run `npx wrangler login` from `web/`, add the key with `npx wrangler secret put OPENROUTER_API_KEY --config wrangler.jsonc`, then run `npm run cf:deploy` with Docker running locally. This command builds and deploys the Worker and Container, then exits.
 
 The Worker retains only the Container binding needed to run FastAPI. It does not configure R2, a workflow binding, a user-state Durable Object, or a budget ledger.

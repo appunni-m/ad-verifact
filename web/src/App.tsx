@@ -901,7 +901,7 @@ function AppInner() {
   const startRun = useCallback(async () => {
     if (!model.files.length) { patchModel({ error: "Add at least one image or PDF in the Ad creative node." }); return; }
     if (!model.defaultsLoaded) { patchModel({ error: "The workflow defaults are not loaded. Check that the API is running." }); return; }
-    if (!model.aiConfigured) { patchModel({ error: "Set OPENROUTER_API_KEY in backend/.env before running the workflow." }); return; }
+    if (!model.aiConfigured) { patchModel({ error: "Configure OPENROUTER_API_KEY as a server-side secret before running the workflow." }); return; }
     const form = new FormData();
     form.set("brief", model.brief);
     form.set("platform", model.platform);

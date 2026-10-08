@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "adverifact",
+  "name": "soft-star-0dd4",
   "main": "worker/index.ts",
   "compatibility_date": "2026-10-07",
   "assets": {
